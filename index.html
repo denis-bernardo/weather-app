@@ -166,8 +166,8 @@
                             <div class="info-box" v-for="weekDay in weekends">
                                 <span class="info-box-icon">
                                     <i class="fa fa-thumbs-o-up" :class="{
-                                        'fa-thumbs-o-up': weekDay.condition == 'clear sky',
-                                        'fa-thumbs-o-down': weekDay.condition != 'clear sky',
+                                        'fa-thumbs-o-up': weekDay.temp > 25,
+                                        'fa-thumbs-o-down': weekDay.temp < 25,
                                     }"></i>
                                 </span>
                                 <div class="info-box-content">
