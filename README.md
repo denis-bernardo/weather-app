@@ -15,6 +15,6 @@ First of all, download or clone the repository, than, just open the file index.h
 * Morris Chart
 
 ### Public Api's
-* Open Weather Map (weather informations)
-* Geonames (cities and states data)
+* Open Weather Map (weather information)
+* Geonames (cities and states information)
 
